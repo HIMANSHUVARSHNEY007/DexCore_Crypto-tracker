@@ -34,7 +34,7 @@ export default function CoinsTable() {
       backgroundColor: "#221E2D",
       cursor: "pointer",
       "&:hover": {
-        backgroundColor: "WHITE",
+        backgroundColor: "#000011",
         fontColor: "black",
       },
       fontFamily: "Montserrat",
@@ -135,19 +135,19 @@ export default function CoinsTable() {
                             <span
                               style={{
                                 textTransform: "uppercase",
-                                color: "#9b51e0",
+                                color: "WHITE",
                                 fontSize: 22,
                               }}
                             >
                               {row.symbol}
                             </span>
-                            <span style={{ color: "#9b51e0" }}>
+                            <span style={{ color: "WHITE" }}>
                               {row.name}
                             </span>
                           </div>
                         </TableCell>
                         <TableCell align="right"
-                        style={{color: "#9b51e0"}}
+                        style={{color: "WHITE"}}
                         >
                           {symbol}{" "}
                           {numberWithCommas(row.current_price.toFixed(2))}
@@ -163,7 +163,7 @@ export default function CoinsTable() {
                           {row.price_change_percentage_24h.toFixed(2)}%
                         </TableCell>
                         <TableCell align="right"
-                        style={{color: "#9b51e0"}}
+                        style={{color: "WHITE"}}
                         >
                           {symbol}{" "}
                           {numberWithCommas(

@@ -3,7 +3,7 @@ import Carousel from "./Carousel";
 
 const useStyles = makeStyles((theme) => ({
   banner: {
-    backgroundImage: "url(./BANNER.png)",
+    backgroundImage: "url(./BANNER3.jpg)",
   },
   bannerContent: {
     height: 400,
@@ -39,7 +39,7 @@ function Banner() {
               fontWeight: "bold",
               marginBottom: 15,
               fontFamily: "Montserrat",
-              color: " #9b51e0"
+              color: "WHITE"
             }}
           >
             CoinX - Crypto Tracker
