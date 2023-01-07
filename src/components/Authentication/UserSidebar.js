@@ -15,6 +15,7 @@ const useStyles = makeStyles({
     padding: 25,
     height: "100%",
     display: "flex",
+    backgroundColor: "#212121",
     flexDirection: "column",
     fontFamily: "monospace",
   },
@@ -42,7 +43,7 @@ const useStyles = makeStyles({
   watchlist: {
     flex: 1,
     width: "100%",
-    backgroundColor: "#221E2D",
+    backgroundColor: "#424242",
     borderRadius: 10,
     padding: 15,
     paddingTop: 10,
