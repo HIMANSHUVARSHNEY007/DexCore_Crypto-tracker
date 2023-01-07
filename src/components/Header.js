@@ -48,7 +48,7 @@ function Header() {
       <AppBar color="transparent" position="static">
         <Container>
           <Toolbar>
-          <img src="LOGO.png" alt="logo" className={classes.logo}
+          <img src="LOGO1.png" alt="logo" className={classes.logo}
                  onClick={() => history.push(`/`)}
             />
             {/* <Button color="inherit">Login</Button> */}
@@ -57,7 +57,7 @@ function Header() {
               labelId="demo-simple-select-label"
               id="demo-simple-select"
               value={currency}
-              style={{ width: 85, height: 40, marginLeft: 950, alignItems: "right"}}
+              style={{ width: 85, height: 40, marginLeft: 950 }}
               onChange={(e) => setCurrency(e.target.value)}
             >
               <MenuItem value={"USD"}>USD</MenuItem>
