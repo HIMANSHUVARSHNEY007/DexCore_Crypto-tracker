@@ -47,7 +47,7 @@ function Banner() {
           <Typography
             variant="subtitle1"
             style={{
-              color: "black",
+              color: "WHITE",
               textTransform: "capitalize",
               fontFamily: "Montserrat",
             }}
