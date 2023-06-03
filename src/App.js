@@ -8,7 +8,7 @@ import Alert from "./components/Alert";
 
 const useStyles = makeStyles(() => ({
   App: {
-    backgroundColor: "#212121",
+    backgroundColor: "#222831",
     color: "white",
     minHeight: "100vh",
   },

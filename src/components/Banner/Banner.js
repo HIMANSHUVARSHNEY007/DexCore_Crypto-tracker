@@ -42,7 +42,7 @@ function Banner() {
               color: "WHITE"
             }}
           >
-            CoinX - Crypto Tracker
+            DexCore - Crypto Tracker
           </Typography>
           <Typography
             variant="subtitle1"

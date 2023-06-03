@@ -79,7 +79,7 @@ import { auth } from '../../firebase';
                 <Button
                     varient="contained"
                     size="large"
-                    style={{ backgroundColor: "#9b51e0", color: "white" }}
+                    style={{ backgroundColor: "#00AFF0", color: "white" }}
                     onClick={handleSubmit}
                 >
                     Sign Up

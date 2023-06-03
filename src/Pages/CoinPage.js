@@ -117,7 +117,7 @@ const CoinPage = () => {
       padding: 25,
       paddingTop: 10,
       width: "100%",
-      color: "#9b51e0",
+      color: "#00AFF0",
       [theme.breakpoints.down("md")]: {
         display: "flex",
         flexDirection: "column",
@@ -131,7 +131,7 @@ const CoinPage = () => {
 
   const classes = useStyles();
 
-  if (!coin) return <LinearProgress style={{ backgroundColor: "#9b51e0" }} />;
+  if (!coin) return <LinearProgress style={{ backgroundColor: "#00AFF0" }} />;
 
   return (
     <div className={classes.container}>
@@ -206,7 +206,7 @@ const CoinPage = () => {
               style={{
                 width: "100%",
                 height: 40,
-                backgroundColor: inWatchlist ? "#ff0000" : "#9b51e0",
+                backgroundColor: inWatchlist ? "#ff0000" : "#00AFF0",
               }}
               onClick={inWatchlist ? removeFromWatchlist : addToWatchlist}
             >

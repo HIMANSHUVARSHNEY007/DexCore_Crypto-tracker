@@ -31,17 +31,17 @@ export default function CoinsTable() {
 
   const useStyles = makeStyles({
     row: {
-      backgroundColor: "#221E2D",
+      backgroundColor: "#393E46",
       cursor: "pointer",
       "&:hover": {
-        backgroundColor: "#000011",
+        backgroundColor: "#222831",
         fontColor: "black",
       },
       fontFamily: "Montserrat",
     },
     pagination: {
       "& .MuiPaginationItem-root": {
-        color: "#9b51e0",
+        color: "#00AFF0",
       },
     },
   });
@@ -52,7 +52,7 @@ export default function CoinsTable() {
   const darkTheme = createTheme({
     palette: {
       primary: {
-        main: "#9b51e0",
+        main: "#00AFF0",
       },
       type: "dark",
     },
@@ -71,7 +71,7 @@ export default function CoinsTable() {
       <Container style={{ textAlign: "center" }}>
         <Typography
           variant="h4"
-          style={{ fontWeight: "bold", margin: 18, fontFamily: "Montserrat", color: "#9b51e0" }}
+          style={{ fontWeight: "bold", margin: 18, fontFamily: "Montserrat", color: "#00AFF0" }}
         >
           Cryptocurrency Prices by Market Cap
         </Typography>
@@ -83,10 +83,10 @@ export default function CoinsTable() {
         />
         <TableContainer component={Paper}>
           {loading ? (
-            <LinearProgress style={{ backgroundColor: "#9b51e0" }} />
+            <LinearProgress style={{ backgroundColor: "#00AFF0" }} />
           ) : (
             <Table aria-label="simple table">
-              <TableHead style={{ backgroundColor: "#9b51e0" }}>
+              <TableHead style={{ backgroundColor: "#00AFF0" }}>
                 <TableRow>
                   {["COIN", "PRICE", "SHIFT (24Hr)", "MARKET CAP"].map((head) => (
                     <TableCell
